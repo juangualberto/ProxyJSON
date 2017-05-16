@@ -2,7 +2,7 @@
  * This software is GNU.
  * Author: jgutierrez AT iesvirgendelcarmen.com
  */
-package com.iesvdc.lmsgi.rss;
+package com.iesvdc.acceso.jsonproxy;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,7 +11,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-// puedes encontrar el JAR en Maven : http://mvnrepository.com/artifact/org.json/json/20160810
 import org.json.*; 
 
 
