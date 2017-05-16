@@ -32,5 +32,5 @@ This will be the *urlChannel* variable.
 ## TODO
 1. Filter whether the XML you are trying to use whith the proxy is a real RSS or ATOM channel 
 (right now the service will convert any XML you ask it for).
-2. Create the POM file.
-
+2. ~~Create the POM file.~~
+3. Create web.xml instead of @Annotations.
