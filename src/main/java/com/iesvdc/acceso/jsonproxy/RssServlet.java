@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URL;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,6 +20,7 @@ import org.json.*;
  * para convertir canales RSS en JSON.
  * @author juangu
  */
+@WebServlet({"/ProxyJson"})
 public class RssServlet extends HttpServlet {
     /**
      * Este sencillo método lee un InputStream a un String usando un Scanner
